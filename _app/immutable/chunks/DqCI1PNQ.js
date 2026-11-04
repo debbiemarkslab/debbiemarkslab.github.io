@@ -1,0 +1,1 @@
+function e(e){return e.replace(/<a\b[^>]*>/g,e=>/\shref="https?:/.test(e)?e.replace(/\s(target|rel)="[^"]*"/g,``).replace(/^<a/,`<a target="_blank" rel="noopener"`):e)}export{e as t};

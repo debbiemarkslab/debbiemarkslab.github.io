@@ -1,0 +1,1 @@
+import{G as e}from"./Bktl45ui.js";e();
