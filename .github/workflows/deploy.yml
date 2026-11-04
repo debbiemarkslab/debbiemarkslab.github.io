@@ -1,5 +1,6 @@
-# Builds the site and publishes it to GitHub Pages on every push to main.
-# Requires Settings → Pages → Source: "GitHub Actions".
+# Builds the site and pushes the finished files to the gh-pages branch on every push to main.
+# Requires Settings → Pages → Source: "Deploy from a branch", branch gh-pages, folder / (root).
+# (The newer "GitHub Actions" Pages source kept timing out for this repo, so branch publishing is used.)
 name: Deploy site
 
 on:
@@ -8,16 +9,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,16 +26,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-      - uses: actions/upload-pages-artifact@v3
+      # also writes .nojekyll, so GitHub serves the _app folder instead of skipping it
+      - uses: peaceiris/actions-gh-pages@v4
         with:
-          path: build
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build
