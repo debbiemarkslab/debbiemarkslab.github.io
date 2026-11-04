@@ -1,0 +1,726 @@
+{
+	"upcoming": [],
+	"past": [
+		{
+			"date": "10/30/2026",
+			"speaker": "Arya Rao, Sabeti & Bhatia Labs"
+		},
+		{
+			"date": "10/09/2026",
+			"speaker": "Nathaniel Blalock, Romero Lab"
+		},
+		{
+			"date": "10/02/2026",
+			"speaker": "Jason Yang, Kulik and Jaakkola Labs"
+		},
+		{
+			"date": "09/17/2026",
+			"speaker": "Sergio Garcia Busto, Marks & Lehner Labs"
+		},
+		{
+			"date": "09/04/2026",
+			"speaker": "Ethan Eschbach, Marks Lab"
+		},
+		{
+			"date": "07/31/2026",
+			"speaker": "Jishnu Das & Prabal Chhibbar, University of Pittsburgh, Das Lab"
+		},
+		{
+			"date": "06/12/2026",
+			"speaker": "Soo-Jeong Kim, University of Cambridge"
+		},
+		{
+			"date": "05/22/2026",
+			"speaker": "Constantin Ahlmann-Eltze, EMBL & UCL Cancer Institute"
+		},
+		{
+			"date": "05/01/2026",
+			"speaker": "Maximilian Billmann, University of Bonn"
+		},
+		{
+			"date": "04/24/2026",
+			"speaker": "David Ross, NIST"
+		},
+		{
+			"date": "04/17/2026",
+			"speaker": "Amir Hossein Hosseini Akbarnejad and Marta Sallese, Lotfollahi Lab, Sanger Institute"
+		},
+		{
+			"date": "04/03/2026",
+			"speaker": "Dominic Grisingher, Kortemme Lab, UCSF"
+		},
+		{
+			"date": "03/27/2026",
+			"speaker": "Andrea Rubbi, Lotfollahi and Lio Labs, Sanger Institute"
+		},
+		{
+			"date": "03/20/2026",
+			"speaker": "Lars Lorch, ETH Zürich"
+		},
+		{
+			"date": "02/20/2026",
+			"speaker": "Greg Simond, NDPH - Oxford"
+		},
+		{
+			"date": "02/06/2026",
+			"speaker": "Sam Sinai, Dyno"
+		},
+		{
+			"date": "01/09/2026",
+			"speaker": "Sam Tipps, King Lab, University of Washington"
+		},
+		{
+			"date": "11/21/2025",
+			"speaker": "Jiheum Park, Columbia University"
+		},
+		{
+			"date": "11/19/2025",
+			"speaker": "Ekin Deniz Aksu, Vingron group - MPI"
+		},
+		{
+			"date": "11/14/2025",
+			"speaker": "Chris Alexiev, Barzilay Lab, MIT"
+		},
+		{
+			"date": "11/07/2025",
+			"speaker": "Emma Garcia, Liau Lab, Harvard Medical School"
+		},
+		{
+			"date": "10/31/2025",
+			"speaker": "Arkadiusz (Arek) Sitek, MGH"
+		},
+		{
+			"date": "10/24/2025",
+			"speaker": "Gabe Rocklin, Rocklin Lab, Northwestern University"
+		},
+		{
+			"date": "10/17/2025",
+			"speaker": "Ben Orr, Kaiser Lab, University fo San Francisco"
+		},
+		{
+			"date": "10/10/2025",
+			"speaker": "Aviv Spinner, The Align Foundation"
+		},
+		{
+			"date": "10/03/2025",
+			"speaker": "Yu-Chen Cheng, Michor Lab, Dana Farber Institute"
+		},
+		{
+			"date": "09/26/2025",
+			"speaker": "Jason Nomburg, Doudna Lab, UC Santa Barbara"
+		},
+		{
+			"date": "09/12/2025",
+			"speaker": "Yuanqing Wang, Chodera Lab, Memorial Sloan Kettering Cancer Center"
+		},
+		{
+			"date": "09/05/2025",
+			"speaker": "Ruth Johnson, Zitnik Lab, Harvard Medical School"
+		},
+		{
+			"date": "08/15/2025",
+			"speaker": "Martin Pacesa, École Polytechnique Fédérale de Lausanne, Correia Group"
+		},
+		{
+			"date": "08/07/2025",
+			"speaker": "Aleksandr N. Medvedev, Genomics AI"
+		},
+		{
+			"date": "08/01/2025",
+			"speaker": "Yuan-Fei Pan, Fudan University"
+		},
+		{
+			"date": "07/23/2025",
+			"speaker": "Joshua Pan, Google DeepMind"
+		},
+		{
+			"date": "07/18/2025",
+			"speaker": "Kelly Brock, The Institute for Experiential AI, Northeastern University"
+		},
+		{
+			"date": "06/27/2025",
+			"speaker": "Jean-Philippe Julien, University of Toronto & Sickkids Research Institute"
+		},
+		{
+			"date": "06/13/2025",
+			"speaker": "Dominik Klein, Theis Lab, Helmholtz Munich"
+		},
+		{
+			"date": "06/6/2025",
+			"speaker": "Charlie Pugh, Dias & Frazer Labs, CRG"
+		},
+		{
+			"date": "05/23/2025",
+			"speaker": "Emek Demir, Oregon Health & Science University"
+		},
+		{
+			"date": "05/16/2025",
+			"speaker": "Woody Ahern & Jason Yim, Baker lab & Jaakkola/Barzilay lab"
+		},
+		{
+			"date": "05/09/2025",
+			"speaker": "Artem Shmatko, DFKZ & EMBL"
+		},
+		{
+			"date": "05/02/2025",
+			"speaker": "Peter DeWeirdt, MIT, Laub Lab"
+		},
+		{
+			"date": "04/25/2025",
+			"speaker": "Yu Xie & Jose Salvador Jimenez Luna, Microsoft Research AI for Science"
+		},
+		{
+			"date": "04/11/2025",
+			"speaker": "Sukhwan Park, Seoul National University, Steinegger Lab"
+		},
+		{
+			"date": "04/04/2025",
+			"speaker": "Sophie Vincoff, Duke University, Pratterjee Lab"
+		},
+		{
+			"date": "03/28/2025",
+			"speaker": "Lea Bogensperger, University of Zurich, Krauthammer Lab"
+		},
+		{
+			"date": "03/14/2025",
+			"speaker": "Ben Fry, Harvard Medical School, Polizzi Lab"
+		},
+		{
+			"date": "03/07/2025",
+			"speaker": "Jonas Koeppel, University of Washington, Jay Shendure Lab"
+		},
+		{
+			"date": "02/28/2025",
+			"speaker": "Core Francisco Park, Harvard University, Tanaka Lab"
+		},
+		{
+			"date": "02/14/2025",
+			"speaker": "Gokul Gowry, Harvard medical School, Peng Yin Lab"
+		},
+		{
+			"date": "02/21/2025",
+			"speaker": "Armita Nourmohammad, University of Washington"
+		},
+		{
+			"date": "02/07/2025",
+			"speaker": "David Herreros, Universidad Autonoma de Madrid, CSIC, Carazo and Sorzano Labs"
+		},
+		{
+			"date": "01/17/2025",
+			"speaker": "Amy Lu, UC Berkeley, Abbeel Lab"
+		},
+		{
+			"date": "01/31/2025",
+			"speaker": "Maria Carreira, MIT, Davis Lab"
+		},
+		{
+			"date": "12/13/2024",
+			"speaker": "Christopher Frank, Technische Universität München"
+		},
+		{
+			"date": "12/05/2024",
+			"speaker": "Willow Coyote-Maestas, UC San Francisco, & Pranam Chatterjee, Duke University"
+		},
+		{
+			"date": "11/22/2024",
+			"speaker": "Sidney Lisanza, University of Washington, Baker Lab"
+		},
+		{
+			"date": "11/15/2024",
+			"speaker": "Katharina Waury, Vrije Universiteit Amsterdam"
+		},
+		{
+			"date": "11/06/2024",
+			"speaker": "Sriram Garg, Max Planck Institute for Terrestrial Microbiology"
+		},
+		{
+			"date": "11/01/2024",
+			"speaker": "Eli Weinstein, Columbia University, Blei Lab"
+		},
+		{
+			"date": "10/25/2024",
+			"speaker": "Ziyi Zhou, Shanghai Jiao Tong University"
+		},
+		{
+			"date": "10/18/2024",
+			"speaker": "Aaron Schmidt, Schmidt Lab"
+		},
+		{
+			"date": "10/04/2024",
+			"speaker": "Agustinus Kristiadi, The Vector Institute"
+		},
+		{
+			"date": "09/27/2024",
+			"speaker": "Robert Schmirler, Technical University of Munich"
+		},
+		{
+			"date": "09/13/2024",
+			"speaker": "Wenhao Wu, University of Michigan"
+		},
+		{
+			"date": "09/06/2024",
+			"speaker": "Jason Yang, California Institute of Technology, Arnold Group"
+		},
+		{
+			"date": "08/30/2024",
+			"speaker": "Xiaojing Cong, Institut de Génomique Fonctionnelle"
+		},
+		{
+			"date": "08/23/2024",
+			"speaker": "Jin Su, Westlake University"
+		},
+		{
+			"date": "08/16/2024",
+			"speaker": "Sebastian Farquhar, Deepmind (formerly OATML)"
+		},
+		{
+			"date": "08/09/2024",
+			"speaker": "Kaiyi Jiang, Abudayyeh-Gootenberg Lab"
+		},
+		{
+			"date": "08/02/2024",
+			"speaker": "Jacob Rapp, Romero Lab"
+		},
+		{
+			"date": "07/26/2024",
+			"speaker": "Mia Petljak, NYU Grossman Medical School"
+		},
+		{
+			"date": "07/12/2024",
+			"speaker": "Pablo Gainza, Bruno Correia Lab"
+		},
+		{
+			"date": "07/03/2024",
+			"speaker": "Alissa Hummer, Charlotte Deane Lab"
+		},
+		{
+			"date": "06/14/2024",
+			"speaker": "Antoni Beltran Marques, Ben Lehner Lab"
+		},
+		{
+			"date": "06/07/2024",
+			"speaker": "Nate Bennett, David Baker Lab"
+		},
+		{
+			"date": "05/17/2024",
+			"speaker": "Jeff Ruffolo, Profluent"
+		},
+		{
+			"date": "05/10/2024",
+			"speaker": "Kevin Yang, Microsoft Research New England"
+		},
+		{
+			"date": "05/03/2024",
+			"speaker": "Tristan Bepler, Simons Machine Learning Center"
+		},
+		{
+			"date": "04/19/2024",
+			"speaker": "Anthony Marchand, Bruno Correia Lab"
+		},
+		{
+			"date": "04/26/2024",
+			"speaker": "Vikram Sundar and Boqiang Tu, Kevin Esvelt Lab"
+		},
+		{
+			"date": "04/12/2024",
+			"speaker": "Luhuan Wu, David Blei Lab"
+		},
+		{
+			"date": "04/05/2024",
+			"speaker": "Hannes Stark, Regina Barzilay Lab"
+		},
+		{
+			"date": "03/22/2024",
+			"speaker": "Maria Brbic, Brbic Lab, EPFL"
+		},
+		{
+			"date": "03/14/2024",
+			"speaker": "Weimin Wu, Zhihan Zhou, Han Liu, Northwestern"
+		},
+		{
+			"date": "03/08/2024",
+			"speaker": "Sven Nelander, Nelander Lab, Uppsala University, Sweden"
+		},
+		{
+			"date": "03/01/2024",
+			"speaker": "Soojung Yang, Rafael Gomez-Bombarelli Lab"
+		},
+		{
+			"date": "02/16/2024",
+			"speaker": "Dawn Chen, Fei Chen Lab, Broad"
+		},
+		{
+			"date": "02/09/2024",
+			"speaker": "Aleksandar Antanasijevic, Antanasijevic Lab, EPFL"
+		},
+		{
+			"date": "01/26/2024",
+			"speaker": "Julie Forman-Kay, Forman-Kay Lab, University of Toronto"
+		},
+		{
+			"date": "01/19/2024",
+			"speaker": "Gordon Rix, Chang Liu / Mo Khalil"
+		},
+		{
+			"date": "01/12/2024",
+			"speaker": "Yuge Ji, Theis Lab, Helmholtz Munich, Munich, Germany"
+		},
+		{
+			"date": "01/05/2024",
+			"speaker": "Michelle Li, Marinka Zitnik"
+		},
+		{
+			"date": "12/15/2023",
+			"speaker": "Soojung Yang, Rafael Gomez-Bombarelli Lab"
+		},
+		{
+			"date": "10/20/2023",
+			"speaker": "Perry Wasdin, Vanderbilt"
+		},
+		{
+			"date": "10/06/2023",
+			"speaker": "Leonie Stockschläder, Berlin Institute of Health"
+		},
+		{
+			"date": "08/25/2023",
+			"speaker": "Tobias Hegelund Olsen, Charlotte Dean Lab @ Oxford"
+		},
+		{
+			"date": "08/11/2023",
+			"speaker": "Pierre Glaser, Arthur Gretton Lab @ UCL"
+		},
+		{
+			"date": "07/21/2023",
+			"speaker": "Sunny and Annie Eom, Albany High School"
+		},
+		{
+			"date": "06/30/2023",
+			"speaker": "Bowen Jing, Berger/Jaakkola Lab @ MIT"
+		},
+		{
+			"date": "06/23/2023",
+			"speaker": "Sepehr Janghorbani, Gerard De Melo Lab @ Rutgers"
+		},
+		{
+			"date": "06/16/2023",
+			"speaker": "Gonzalo Benegas, Song Lab @ UC Berkeley"
+		},
+		{
+			"date": "06/02/2023",
+			"speaker": "Vikram Agarwal, @ Sanofi"
+		},
+		{
+			"date": "05/26/2023",
+			"speaker": "Ellen Shrock, Church Lab @ Harvard Medical School"
+		},
+		{
+			"date": "05/19/2023",
+			"speaker": "Vaibhav Mohanty, Ard Louis Group @ the University of Oxford"
+		},
+		{
+			"date": "05/05/2023",
+			"speaker": "Zheming An, Sontag Lab @ Northeastern University"
+		},
+		{
+			"date": "01/20/2023",
+			"speaker": "CradleBio Team, @ CradleBio"
+		},
+		{
+			"date": "01/13/2023",
+			"speaker": "Rachapun Rotrattanadumrong, @ Okinawa Institute of Science and Technology"
+		},
+		{
+			"date": "01/06/2023",
+			"speaker": "Michelle Li, @ Harvard Medical School"
+		},
+		{
+			"date": "11/11/2022",
+			"speaker": "Dinko Franceschi, Broad Institute @ MIT"
+		},
+		{
+			"date": "11/04/2022",
+			"speaker": "Feiran Li, @ Chalmers University"
+		},
+		{
+			"date": "10/28/2022",
+			"speaker": "Alexander Cohen, Bjorkman Lab @ Caltech"
+		},
+		{
+			"date": "10/21/2022",
+			"speaker": "Alex Li, @UCSF"
+		},
+		{
+			"date": "10/14/2022",
+			"speaker": "Rachel Petherbridge, Higgin Lab @ MGH"
+		},
+		{
+			"date": "09/30/2022",
+			"speaker": "Wengong Jin, CSAIL - MIT"
+		},
+		{
+			"date": "09/23/2022",
+			"speaker": "Ameya Harmalkar; Roshan Rao, Jeffrey Gray Lab @ John Hopkins University"
+		},
+		{
+			"date": "09/16/2022",
+			"speaker": "Haoran Sun, Hao-Min Zhou Lab"
+		},
+		{
+			"date": "09/09/2022",
+			"speaker": "Japheth Gado, National Renewable Energy Laboratory"
+		},
+		{
+			"date": "09/02/2022",
+			"speaker": "Justas Dauparas, Baker Lab @ UW"
+		},
+		{
+			"date": "08/19/22",
+			"speaker": "Yuge Ji, Institute of Computational Biology @ Helmhotz Center Munich"
+		},
+		{
+			"date": "08/12/22",
+			"speaker": "Jason Yim and Brian Trippe, @ MIT"
+		},
+		{
+			"date": "07/29/22",
+			"speaker": "W Schneider, Y Yu, M Kass, Charlie Rice Lab @ The Rockefeller University"
+		},
+		{
+			"date": "07/01/22",
+			"speaker": "Eeshit Vaishnav, @ MIT"
+		},
+		{
+			"date": "06/24/22",
+			"speaker": "Hakhamanesh Mostafavi, @ Stanford University"
+		},
+		{
+			"date": "06/17/22",
+			"speaker": "Martin Jankowiak, Broad Institute @ MIT"
+		},
+		{
+			"date": "05/27/22",
+			"speaker": "Nick Polizzi, @ Harvard Medical School"
+		},
+		{
+			"date": "05/13/22",
+			"speaker": "Juannan Zhou, @ University of Florida"
+		},
+		{
+			"date": "05/06/22",
+			"speaker": "Samuel Stanton, Wilson Lab @ NYU"
+		},
+		{
+			"date": "04/29/22",
+			"speaker": "A Faure, J Domingo, and J Schmiedel, @ The Center for Genomic Regulation"
+		},
+		{
+			"date": "04/15/22",
+			"speaker": "Niloy Biswas, @ Harvard University"
+		},
+		{
+			"date": "04/08/22",
+			"speaker": "Anubhav Sinha, @ MIT"
+		},
+		{
+			"date": "03/25/22",
+			"speaker": "Karla Ilic Durdic, Weitz Lab @ Harvard University"
+		},
+		{
+			"date": "03/18/22",
+			"speaker": "Chloe Hsu, @ UC Berkeley"
+		},
+		{
+			"date": "03/11/22",
+			"speaker": "Marianna Cortese and Kjetil Bjornevik, @ Harvard School of Public Health"
+		},
+		{
+			"date": "03/04/22",
+			"speaker": "Andrew Giessel, @ Moderna"
+		},
+		{
+			"date": "02/11/22",
+			"speaker": "Ronen Mukamel, @ Harvard Medical School"
+		},
+		{
+			"date": "02/04/22",
+			"speaker": "Sergei Kosakovsky-Pond, @ Temple University"
+		},
+		{
+			"date": "01/28/22",
+			"speaker": "Yosuke Tanigawa, Kellis Lab @ MIT"
+		},
+		{
+			"date": "01/21/22",
+			"speaker": "Luke O'Connor, Broad Institute @ MIT"
+		},
+		{
+			"date": "01/14/22",
+			"speaker": "Lucas Janson, @ Harvard University"
+		},
+		{
+			"date": "12/03/21",
+			"speaker": "Kate Dray, Leonard Lab @ Northwestern University"
+		},
+		{
+			"date": "11/19/21",
+			"speaker": "Andy Keller, Welling Lab @ University of Amsterdam"
+		},
+		{
+			"date": "11/12/21",
+			"speaker": "James Xue, Sabeti Lab @ Broad Institute"
+		},
+		{
+			"date": "10/22/21",
+			"speaker": "Josh Pan, Hahn Lab @ Broad Institute, Dana-Farber Cancer Institute"
+		},
+		{
+			"date": "10/15/21",
+			"speaker": "Connor Coley, @ MIT"
+		},
+		{
+			"date": "9/17/21",
+			"speaker": "Luca Sesta, Pagnani Lab @ INFN, Sezione di Torino"
+		},
+		{
+			"date": "9/10/21",
+			"speaker": "Ali Madani, @ Salesforce Research"
+		},
+		{
+			"date": "7/30/21",
+			"speaker": "Peter Koo, @ Cold Spring Harbor Laboratory"
+		},
+		{
+			"date": "7/23/21",
+			"speaker": "Joshua Meier, Facebook AI Research"
+		},
+		{
+			"date": "7/2/21",
+			"speaker": "Antonio Khalil Moretti, Pe'er Lab @ Columbia University"
+		},
+		{
+			"date": "6/25/21",
+			"speaker": "Alex Lee, Greene Lab @ UPenn"
+		},
+		{
+			"date": "6/18/21",
+			"speaker": "Allie Greaney, Bloom Lab @ MIT"
+		},
+		{
+			"date": "6/11/21",
+			"speaker": "Juan Angel Patiño-Galindo, Rabadan Lab @ Columbia University"
+		},
+		{
+			"date": "6/4/21",
+			"speaker": "Lorin Crawford, @ Brown University"
+		},
+		{
+			"date": "5/21/21",
+			"speaker": "Will Grathwohl, Duvenaud Lab @ University of Toronto"
+		},
+		{
+			"date": "5/14/21",
+			"speaker": "Kaitlin Samocha, Hurles group @ Sanger Institute"
+		},
+		{
+			"date": "5/7/21",
+			"speaker": "Romain Lopez, Nir Yosef and Michael I. Jordan's lab @ UC Berkeley"
+		},
+		{
+			"date": "4/30/21",
+			"speaker": "Han Altae-Tran, Feng Zhang lab @ MIT"
+		},
+		{
+			"date": "4/23/21",
+			"speaker": "Hattie Chung, Regev Lab @ Broad Institute"
+		},
+		{
+			"date": "4/16/21",
+			"speaker": "Brian Trippe, Jason Ulirsch, Broderick lab, Finucane lab"
+		},
+		{
+			"date": "4/9/21",
+			"speaker": "Tom Tropea, MIND inititiative collab with Alice Chen-Plotkin"
+		},
+		{
+			"date": "3/12/21",
+			"speaker": "Anastasios Angelopoulos, Michael I. Jordan lab @ UC Berkeley"
+		},
+		{
+			"date": "3/5/21",
+			"speaker": "Ellen Zhong, Brian Hie, Berger lab"
+		},
+		{
+			"date": "2/19/21",
+			"speaker": "Georg Hochberg, Formerly Thornton Lab @ UChicago"
+		},
+		{
+			"date": "2/12/21",
+			"speaker": "Anshul Kundaje, Kundaje lab @ Stanford"
+		},
+		{
+			"date": "2/5/21",
+			"speaker": "Eric Wang, Ring lab @ Yale"
+		},
+		{
+			"date": "1/29/21",
+			"speaker": "D Belanger, D Dohan, A Shanehsazzadeh, @ Google Brain"
+		},
+		{
+			"date": "1/15/21",
+			"speaker": "Tomasz Kula, Formerly Elledge lab @ Harvard"
+		},
+		{
+			"date": "11/20/20",
+			"speaker": "Evgenij Fiskin, @ Broad Institute"
+		},
+		{
+			"date": "11/6/20",
+			"speaker": "Phase separation, In-house"
+		},
+		{
+			"date": "10/30/20",
+			"speaker": "Yixin Wang, Michael I. Jordan lab @ UC Berkeley"
+		},
+		{
+			"date": "10/23/20",
+			"speaker": "Yian Ma, @ UC San Diego"
+		},
+		{
+			"date": "10/16/20",
+			"speaker": "Cedric Huchuan Xia, @ UPenn"
+		},
+		{
+			"date": "9/25/20",
+			"speaker": "Max Shen, Regev lab @ Broad Institute"
+		},
+		{
+			"date": "9/18/20",
+			"speaker": "Simon Dujardin and Caitlin Commins, Hyman lab @ Harvard"
+		},
+		{
+			"date": "8/26/20",
+			"speaker": "Greg McInnes, @ Stanford"
+		},
+		{
+			"date": "8/5/20",
+			"speaker": "Clara Wong-Fannjiang, Listgarden and Jordan lab @ UC Berkeley"
+		},
+		{
+			"date": "7/29/20",
+			"speaker": "Karren Yang, Uhler lab @ MIT"
+		},
+		{
+			"date": "7/22/20",
+			"speaker": "Jason Shepherd, Shepherd lab @ University of Utah"
+		},
+		{
+			"date": "6/24/20",
+			"speaker": "A Rubinsteyn, B Vincent, C Smith, Rubinsteyn lab @ UNC Chapel Hill"
+		},
+		{
+			"date": "6/17/20",
+			"speaker": "Martin Kampmann, Ruilin Tian, Kampmann lab @ UC San Francisco"
+		}
+	],
+	"signup": "https://docs.google.com/forms/d/e/1FAIpQLSeJIF4JBOjZNaiAqJJJOrhlxlyS7BzZswAWT0e8DG16hdo3zw/viewform?usp=publish-editor"
+}

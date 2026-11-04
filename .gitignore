@@ -1,0 +1,8 @@
+node_modules
+/build
+/.svelte-kit
+.DS_Store
+# original Squarespace downloads and unused images (large; kept locally only)
+image-archive
+# personal Claude Code settings
+.claude/settings.local.json
