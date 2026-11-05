@@ -2,8 +2,21 @@
 	import news from '#lib/data/news.json';
 	import { openExternalInNewTab } from '#lib/links.js';
 	import DotField from '#lib/components/DotField.svelte';
+	import { slide } from 'svelte/transition';
 
 	let heroText = $state(null);
+
+	// hiring banner: hidden until mounted so returning visitors who dismissed it never see a flash
+	const BANNER_KEY = 'hiring-banner-dismissed';
+	let showBanner = $state(false);
+	const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+	$effect(() => {
+		try { showBanner = !localStorage.getItem(BANNER_KEY); } catch { showBanner = true; }
+	});
+	function dismissBanner() {
+		showBanner = false;
+		try { localStorage.setItem(BANNER_KEY, '1'); } catch {}
+	}
 
 	const NEWS_SHOWN = 2;
 	const PHOTOS_SHOWN = 8;
@@ -46,6 +59,20 @@
 </svelte:head>
 
 <div class="home">
+	{#if showBanner}
+		<!-- enters and leaves along the same path (slides from/to its own top edge) -->
+		<div class="banner-wrap" transition:slide={{ duration: reducedMotion() ? 0 : 350 }}>
+			<aside class="banner" aria-label="We're hiring">
+				<p>We are looking for fabulous ambitious scientists</p>
+				<a class="btn compact" href="/join-us">Apply here</a>
+				<button class="close" aria-label="Dismiss" onclick={dismissBanner}>
+					<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"
+						><path d="M1 1l10 10M11 1L1 11" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" /></svg
+					>
+				</button>
+			</aside>
+		</div>
+	{/if}
 	<header class="hero">
 		<DotField exclude={heroText} />
 		<div class="hero-text" bind:this={heroText}>
@@ -135,6 +162,72 @@
 		padding: 0 40px 96px;
 	}
 
+	/* hiring banner: soft lab-red tint; text uses a darker red for readable contrast */
+	.banner-wrap {
+		padding-top: 24px;
+	}
+	.banner {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+		padding: 10px 10px 10px 22px;
+		border-radius: 980px;
+		background: rgb(217 2 2 / 0.08);
+		color: #a30000;
+	}
+	.banner p {
+		flex: 1;
+		margin: 0;
+		font-size: 15px;
+		font-weight: 700;
+		line-height: 1.3;
+		letter-spacing: -0.01em;
+	}
+	.banner .btn {
+		background: var(--red);
+		flex-shrink: 0;
+	}
+	.close {
+		display: grid;
+		place-items: center;
+		flex-shrink: 0;
+		width: 32px;
+		height: 32px;
+		padding: 0;
+		border: 0;
+		border-radius: 50%;
+		background: transparent;
+		color: inherit;
+		cursor: pointer;
+		-webkit-tap-highlight-color: transparent;
+		transition: transform 0.25s cubic-bezier(0.25, 1, 0.5, 1);
+	}
+	.close:active {
+		transform: scale(0.9);
+		background: rgb(217 2 2 / 0.12);
+		transition-duration: 0.1s;
+	}
+	@media (hover: hover) {
+		.banner .btn:hover {
+			background: #a30000;
+		}
+		.close:hover {
+			background: rgb(217 2 2 / 0.1);
+		}
+	}
+	@media (pointer: coarse) {
+		.close {
+			width: 44px;
+			height: 44px;
+		}
+	}
+	@media (prefers-contrast: more) {
+		.banner {
+			background: #fff;
+			border: 2px solid var(--red);
+		}
+	}
+
 	.hero {
 		position: relative;
 		padding: 112px 0 96px;
@@ -170,6 +263,10 @@
 		color: var(--grey);
 	}
 
+	/* a little breathing room between the hero (and its dot field) and the first section */
+	.hero + section {
+		margin-top: 24px;
+	}
 	section + section {
 		margin-top: 96px;
 	}
@@ -375,6 +472,18 @@
 		.cards {
 			grid-template-columns: 1fr;
 		}
+		.banner {
+			flex-wrap: wrap;
+			gap: 10px 12px;
+			padding: 14px 8px 14px 18px;
+			border-radius: 18px;
+		}
+		.banner p {
+			flex-basis: calc(100% - 56px);
+		}
+		.banner .btn {
+			order: 3;
+		}
 		section + section {
 			margin-top: 64px;
 		}
@@ -383,7 +492,8 @@
 	@media (prefers-reduced-motion: reduce) {
 		.pub,
 		.pub img,
-		.photo {
+		.photo,
+		.close {
 			transition: none;
 			transform: none !important;
 		}
