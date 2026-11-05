@@ -1,9 +1,11 @@
 <script>
 	import photos from '#lib/data/shenanigans.json';
 
+	// placeholders in brackets for the applicant to fill in
+	const subject = 'Prospective [Postdoc/Pre-doc/PhD/Undergrad] interested in [protein design/genetics/viral evolution]';
 	const apply =
-		'mailto:debbie@hms.harvard.edu?cc=jake_reardon@hms.harvard.edu&subject=' +
-		encodeURIComponent('Postdoctoral position in the Marks Lab');
+		'mailto:debbie@hms.harvard.edu?cc=jake_reardon@hms.harvard.edu,ethan_eschbach@g.harvard.edu&subject=' +
+		encodeURIComponent(subject);
 </script>
 
 <svelte:head>
@@ -17,12 +19,20 @@
 		<section class="positions" aria-labelledby="positions">
 			<h2 id="positions" class="section-title">Open positions</h2>
 			<div class="card">
-				<h3>Postdoctoral researchers</h3>
+				<h3>Postdoctoral researchers and RAs</h3>
 				<p>
-					We are actively recruiting postdocs. Please email Debbie and cc Jake with your CV, two references and a brief
-					description of your interests.
+					We are actively recruiting postdocs and RAs. Please email Debbie and cc Jake with your CV, two references
+					and a brief description of your interests.
 				</p>
-				<p><a class="btn" href={apply}>Email</a></p>
+				<p class="subject">Please use this subject line: <strong>{subject}</strong></p>
+				<p>
+					<a class="btn apply" href={apply}>
+						<svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"
+							><path d="M2 3.5h12v9H2zM2.5 4l5.5 4.5L13.5 4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" /></svg
+						>
+						Email
+					</a>
+				</p>
 			</div>
 		</section>
 
@@ -114,6 +124,24 @@
 	}
 	.card p:last-child {
 		margin-top: 18px;
+	}
+	.subject {
+		font-size: 0.9375rem;
+		color: var(--grey);
+	}
+	.subject strong {
+		color: var(--ink);
+	}
+	/* envelope icon + label; 44px tall on touch screens */
+	.apply {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+	}
+	@media (pointer: coarse) {
+		.apply {
+			min-height: 44px;
+		}
 	}
 
 	.map {

@@ -476,4 +476,10 @@
 			height: 44px;
 		}
 	}
+	/* the field isn't visible on narrow screens, so its controls would do nothing there */
+	@media (max-width: 800px) {
+		.controls {
+			display: none;
+		}
+	}
 </style>
