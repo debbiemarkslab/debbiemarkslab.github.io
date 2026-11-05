@@ -1,0 +1,1 @@
+import{K as e}from"./B3U6WDW2.js";e();
